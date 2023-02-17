@@ -6,7 +6,7 @@
 
 ```hcl
 module "virtual-service" {
-    source = "github.com/pbs/terraform-aws-virtual-service-module?ref=0.0.2"
+    source = "github.com/pbs/terraform-aws-virtual-service-module?ref=0.0.3"
 }
 ```
 
@@ -26,7 +26,7 @@ Integrate this module like so:
 
 ```hcl
 module "virtual-service" {
-  source = "github.com/pbs/terraform-aws-virtual-service-module?ref=0.0.2"
+  source = "github.com/pbs/terraform-aws-virtual-service-module?ref=0.0.3"
 
   mesh_name = module.mesh.id
 
@@ -46,7 +46,7 @@ module "virtual-service" {
 
 ```hcl
 module "virtual-service" {
-  source = "github.com/pbs/terraform-aws-virtual-service-module?ref=0.0.2"
+  source = "github.com/pbs/terraform-aws-virtual-service-module?ref=0.0.3"
 
   mesh_name = module.mesh.id
 
@@ -66,7 +66,7 @@ module "virtual-service" {
 
 If this repo is added as a subtree, then the version of the module should be close to the version shown here:
 
-`0.0.2`
+`0.0.3`
 
 Note, however that subtrees can be altered as desired within repositories.
 
