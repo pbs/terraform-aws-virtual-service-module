@@ -7,7 +7,7 @@
 Use this URL for the source of the module. See the usage examples below for more details.
 
 ```hcl
-github.com/pbs/terraform-aws-virtual-service-module?ref=0.0.5
+github.com/pbs/terraform-aws-virtual-service-module?ref=x.y.z
 ```
 
 ### Alternative Installation Methods
@@ -26,7 +26,7 @@ Integrate this module like so:
 
 ```hcl
 module "virtual-service" {
-  source = "github.com/pbs/terraform-aws-virtual-service-module?ref=0.0.5"
+  source = "github.com/pbs/terraform-aws-virtual-service-module?ref=x.y.z"
 
   mesh_name = module.mesh.id
 
@@ -46,7 +46,7 @@ module "virtual-service" {
 
 ```hcl
 module "virtual-service" {
-  source = "github.com/pbs/terraform-aws-virtual-service-module?ref=0.0.5"
+  source = "github.com/pbs/terraform-aws-virtual-service-module?ref=x.y.z"
 
   mesh_name = module.mesh.id
 
@@ -66,7 +66,7 @@ module "virtual-service" {
 
 If this repo is added as a subtree, then the version of the module should be close to the version shown here:
 
-`0.0.5`
+`x.y.z`
 
 Note, however that subtrees can be altered as desired within repositories.
 
